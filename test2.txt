@@ -1,1 +1,23 @@
-test zmian
+git config --global user.name "nazwa"  - ustawia urzytkownika
+git config --global user.email "mail"  - ustawia miala
+git config --list  - wyswietla liste urzytkownikow
+
+git status
+git log 
+
+git add <nazwa pliku>  - przenosi wszsytkie pliki do stagin area
+git add .  - przenosi wszystkie pliki do staging area
+
+git commit -m "wiadomosc"  - comituje wszystkie dodane pliki
+git commit -am "wiadomosc"  - comituje wszytskie pliki
+
+git branch  - wyswietla liste branchy
+git checkout -b "nazwa brancha"  - tworzy nowego brancha i przenosi nas do niego
+
+git merge <nazwa branch>  - łączy branche (trzeba być na master)
+
+git remote add origin <link do repozytorium github>
+git remote -v  - wyswietla jakie sledzi adresy
+git remote set-url origin https://<token>@<lint do repozytorium github> 
+
+git push -u origin master
